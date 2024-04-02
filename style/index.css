@@ -255,6 +255,9 @@ ul {
   .account-link {
     display: none;
   }
+  .header .link {
+    text-wrap: nowrap;
+  }
 }
 .bg-holder {
   position: relative;
