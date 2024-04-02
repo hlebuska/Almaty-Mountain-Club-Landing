@@ -232,6 +232,7 @@ ul {
 
 .header .link {
   text-wrap: nowrap;
+  overflow-wrap: normal;
 }
 
 @media screen and (max-width: 780px) {
@@ -254,9 +255,6 @@ ul {
   }
   .account-link {
     display: none;
-  }
-  .header .link {
-    overflow-wrap: normal;
   }
 }
 .bg-holder {

@@ -43,6 +43,7 @@
 }
 .header .link{
     text-wrap: nowrap;
+    overflow-wrap: normal;
 }
 @include tablet-s{
     .header__list{
@@ -64,8 +65,5 @@
     }
     .account-link{
         display: none;
-    }
-    .header .link{
-        overflow-wrap: normal;
     }
 }
