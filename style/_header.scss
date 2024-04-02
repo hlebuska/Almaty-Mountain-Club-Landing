@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header__navbar{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+}
+.logo__img{
+    width: 80px;
+}
+.header__menu{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.header__navbar{
+    flex: 0;
+}
+.header__menu-icon{
+    height: 20px;
+    fill: #fff;
+    margin-bottom: 2px;
+}
+.header__account{
+    display: flex; 
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+    flex: 1;
+}
+.header__account-icon{
+    margin-bottom: 2px;
+}
+.header .link{
+    text-wrap: nowrap;
+}
+@include tablet-s{
+    .header__list{
+        gap: 20px;
+    }
+    .logo__img{
+        width: 60px;
+    }
+}
+@include mobile{
+    .header{
+        padding: 20px 0 10px 0;
+    }
+    .header__menu{
+        display: flex;
+    }
+    .header__list{
+        gap:16px;
+    }
+    .account-link{
+        display: none;
+    }
+}
