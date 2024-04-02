@@ -41,9 +41,9 @@
 .header__account-icon{
     margin-bottom: 2px;
 }
-.header .link{
-    text-wrap: nowrap;
-    overflow-wrap: normal;
+.header__item{
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 @include tablet-s{
     .header__list{

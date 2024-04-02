@@ -230,9 +230,9 @@ ul {
   margin-bottom: 2px;
 }
 
-.header .link {
-  text-wrap: nowrap;
-  overflow-wrap: normal;
+.header__item {
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 780px) {
@@ -554,7 +554,7 @@ ul {
 }
 @media screen and (max-width: 780px) {
   .mg {
-    top: 260px;
+    top: 250px;
   }
   .fg {
     top: 470px;
@@ -587,7 +587,7 @@ ul {
 }
 @media screen and (max-width: 630px) {
   .mg {
-    top: 150px;
+    top: 140px;
   }
   .fg {
     top: 280px;
