@@ -550,6 +550,9 @@ ul {
   .fg {
     top: 470px;
   }
+  .hero__content {
+    padding: 0 50px;
+  }
 }
 @media screen and (max-width: 780px) {
   .mg {
@@ -558,8 +561,12 @@ ul {
   .fg {
     top: 470px;
   }
+  .hero {
+    padding-bottom: 100px;
+  }
   .hero__content {
-    margin-top: 10px;
+    margin-top: 50px;
+    padding: 0;
   }
   .about__info {
     padding: 60px;
@@ -602,6 +609,7 @@ ul {
   }
   .hero {
     padding-bottom: 100px;
+    padding-top: 75px;
   }
 }
 .footer {
